@@ -1,7 +1,7 @@
 /* Obecné styly stránky */
 body {
     background-color: #f0f4fc; /* Světle modré pozadí */
-    font-family: "Georgia", serif; /* Patkové, racionální a snadno čitelné písmo */
+    font-family: "Georgia", serif; /* Patkové písmo */
     color: #333; /* Tmavě šedá barva textu */
     margin: 0;
     padding: 0;
@@ -21,7 +21,7 @@ body {
     justify-content: space-between;
     padding: 20px;
     box-sizing: border-box;
-    min-height: 500px; /* Zvýšení minimální výšky */
+    min-height: 500px; /* Minimální výška */
 }
 /* Nadpisy pro zadání čísla */
 label {
@@ -47,7 +47,7 @@ input {
 }
 input:focus {
     border-color: #5a5a89; /* Změna barvy rámečku při zaměření */
-    outline: none; /* Odstranění výchozího okraje */
+    outline: none; /* Odstranění okraje */
 }
 /* Tlačítka */
 button {
@@ -65,7 +65,7 @@ button {
     transition: background-color 0.3s ease;
 }
 button:hover {
-    background-color: #5a5a89; /* Tlumená fialová při najetí myší */
+    background-color: #5a5a89; /* Tlumená fialová při myši */
 }
 button:active {
     transform: scale(0.98); /* Jemné zatlačení tlačítka při kliknutí */
