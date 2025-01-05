@@ -1,0 +1,1 @@
+Kalkulačka se základními funkcemi
